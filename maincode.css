@@ -1,0 +1,155 @@
+/* Version 1.0 */
+
+/* EZTheme, made by Anton. 
+Made to be easy changed and customized for beginners.*/
+
+/* Header code, change height and width to the size of your header, also change the background-image name to the name of your header file. */
+
+.pagename a {
+	font: Arial;
+	font-style: bold;
+	color: black;
+}
+
+#header {
+	background-image: url(%%header%%);
+	background-position: left center;
+	height: 200px;
+	width: 1920px;
+}
+
+body {
+	font-family: Pixel Emulator;
+	font-style: italic;
+	background-color: transparet; /* Change the transparent to your desired color, leave "transparent" for default. */
+}
+
+/* Upvote/Downvote arrows */
+
+.arrow.upmod {
+	background: url(%%upvote%%);
+}
+
+.arrow.downmod {
+	background: url(%%downvote%%)
+}
+
+.arrow.down {
+	background: url(%%down%%)
+}
+
+.arrow.up {
+	background: url(%%up%%)
+}
+
+/* Side box, where subscribe, and readers content are shown. */
+
+.titlebox {
+	border-radius: 4px;
+	border: 1px solid black;
+	background-color: #F7F7F7;
+	padding: 16px; 
+	color: #0071c5;
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+}
+
+.sidecontentbox .content {
+	border-radius: 4px;
+	border: 1px solid black;
+	background-color: #F7F7F7;
+	padding: 16px; 
+	color: #0071c5;
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+}
+
+/* Taglines */
+
+.tagline .stickied-tagline { /* This tagline is the announcment tag */
+	border-radius: 4px;
+	font-family: Arial Black;
+	text-transform: uppercase;
+	font-size: 10px;
+	border: 1px solid black;
+	background-color: green;
+	padding: 2px; 
+	color: white;
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+	margin-bottom: 1px;
+}
+
+/* Tab Menu, hot, new, etc. */
+
+#header .tabmenu {
+	display: block;
+	margin-left: 5px;
+	margin-top: 130px;
+}
+
+#header .tabmenu li a {
+	text-transform: uppercase;
+}
+
+.tabmenu {
+	list-style-type: none;
+	white-space: nowrap;
+	margin-top: 5px;
+	vertical-align: bottom;
+}
+
+/* Buttons under all posts, comment, share, etc
+(I commented some of the code lines here, as I did
+not know if it would fit the theme*/
+
+.entry .buttons li {
+	margin-top: 5px;
+	/*border-radius: 4px;*/
+	font-family: Arial Black;
+	text-transform: uppercase;
+	font-size: 10px;
+	/*border: 1px solid black;*/
+	background-color: black;
+	/*padding: 2px;*/
+	/*box-shadow: 0px 0px 8px rgba(0,0,0,0.4);*/
+	margin-bottom: 1px;
+}
+
+.entry .buttons li a {
+	color: black;
+}
+
+
+.entry .buttons li a {
+	color: white;
+}
+
+.domain a {
+	color: blue;
+}
+
+/* The list page, this code makes it look nice with a border and a box shadow. */
+
+body.listing-page[class] > .content, body[class] > .content {
+	margin: 15px 320px 15px 15px;
+	border-radius: 4px;
+	border: 1px solid black;
+	background-color: #F7F7F7;
+	padding: 16px; 
+	color: #0071c5;
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+}
+
+.morelink a {
+	color: white;
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: blue;
+}
+
+/* Random stuff removed */
+.sidebox.create .spacer a {display: none;}
+.sidebox .subtitle {display: none;}
+.footer-parent {display: none} /* Remove this line of code to show the footer. */
+#sr-header-area {display: none;}
