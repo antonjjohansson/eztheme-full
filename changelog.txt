@@ -1,0 +1,14 @@
+EZTheme 1.1
+
+Big Changes:
+
+- New Background choices. (Change the repeatbackground image to add a custom background).
+- Customize name of Readers, Currently Online and moderator. (Can be found at the bottom of the code).
+
+Minor changes:
+
+- Nav menu lowered.
+- Added so now /r/EZTheme text is shown in the header. (You can custom the text under Header Text, near the top of code).
+- Removed the default Reddit Header Icon. (Might change in the future, so it's replaceable by a custom picture).
+- Added a border and box shadow to the whole side box.
+- Changed the font from "Pixel Emulator" to "Candara". (You can change the font under the Body code).
